@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Personal - Adrián Rosario</title>
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header>
+    <h1>Adrián Ariel Rosario Vera</h1>
+    <p>"Estudiante de Sistemas de Información"</p>
+    <img src="mi_foto.jpeg" alt="Mi foto personal" width="180">
+</header>
+
+<!-- ================= NAV ================= -->
+<nav>
+    <a href="#sobremi">Sobre mí</a> |
+    <a href="#intereses">Intereses</a> |
+    <a href="#habilidades">Habilidades</a> |
+    <a href="#multimedia">Multimedia</a> |
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<main>
+
+<!-- ================= SOBRE MI ================= -->
+<section id="sobremi">
+    <h2>Sobre mí</h2>
+    <p>
+    Mi nombre es <strong>Adrián Rosario</strong>, tengo 20 años y actualmente estudio la carrera de 
+    <strong>Sistemas de la Información</strong>. Me gusta el fútbol y disfruto mucho aprender sobre 
+    tecnologías nuevas. Siempre busco mejorar mis habilidades de programación y crecer como profesional.
+</p>
+</section>
+
+<!-- ================= LISTA DE INTERESES ================= -->
+<section id="intereses">
+    <h2>Mis intereses</h2>
+    <ul>
+        <li>Desarrollo web</li>
+        <li>Seguridad informática</li>
+        <li>Diseño de interfaces</li>
+        <li>Aprender nuevos lenguajes de programación</li>
+    </ul>
+</section>
+
+<!-- ================= TABLA DE HABILIDADES ================= -->
+<section id="habilidades">
+    <h2>Tabla de habilidades</h2>
+    <table border="1" cellpadding="8">
+        <thead>
+            <tr>
+                <th>Habilidad</th>
+                <th>Nivel</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HTML5</td>
+                <td>Principiante</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Principiante</td>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td>Básico</td>
+            </tr>
+            <tr>
+                <td>Trabajo en equipo</td>
+                <td>Avanzado</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Estudiante en constante mejora</td>
+            </tr>
+        </tfoot>
+    </table>
+</section>
+
+<!-- ================= MULTIMEDIA ================= -->
+<section id="multimedia">
+    <h2>Presentación Multimedia</h2>
+    <p>Audio corto describiendo mi presentación:</p>
+    <audio controls>
+        <source src="presentacion.ogg" type="audio/mpeg">
+    </audio>
+</section>
+
+<!-- ================= FORMULARIO ================= -->
+<section id="contacto">
+    <h2>Formulario de contacto</h2>
+
+    <form>
+
+        <label>Nombre completo:</label><br>
+        <input type="text" name="nombre" required><br><br>
+
+        <label>Correo electrónico:</label><br>
+        <input type="email" name="correo" required><br><br>
+
+        <label>Edad:</label><br>
+        <input type="number" name="edad" min="10" max="99" required><br><br>
+
+        <label>Género:</label><br>
+        <select name="genero" required>
+            <option value="">Seleccione...</option>
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+            <option value="otro">Otro</option>
+        </select><br><br>
+
+        <label>Intereses:</label><br>
+        <input type="checkbox" name="web"> Desarrollo Web<br>
+        <input type="checkbox" name="redes"> Redes<br>
+        <input type="checkbox" name="seguridad"> Seguridad informática<br><br>
+
+        <label>Comentarios:</label><br>
+        <textarea name="comentarios" required></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <p>© 2025 Adrián Rosario • Portafolio Web</p>
+    <p>
+        <a href="https://www.facebook.com/?locale=es_LA" target="_blank">Facebook</a> •
+        <a href="https://github.com" target="_blank">GitHub</a>
+    </p>
+</footer>
+</body>
+</html>
